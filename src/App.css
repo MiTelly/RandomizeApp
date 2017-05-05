@@ -1,0 +1,38 @@
+body {
+  background-color: #f9f9e5
+}
+
+.App {
+  font-family: monospace;
+}
+
+.Header {
+  height: 100px;
+  background-color: black;
+  color: lightblue;
+  text-align: center;
+  font-size: 85px;
+  padding-top: 5px;
+  margin-bottom: 0;
+  font-family: monospace;
+}
+
+.Navbar ul{
+  margin-top: 0px;
+}
+
+.Navbar li {
+  list-style-type: none;
+  display: inline-block;
+  font-size: 17px;
+  padding-right: 35px;
+  padding-top: 15px;
+  height: 45px;
+}
+.Navbar {
+  height: 60px;
+  background-color: blue;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+}
